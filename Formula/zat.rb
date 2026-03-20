@@ -7,23 +7,23 @@ class Zat < Formula
   on_macos do
     on_arm do
       url "https://github.com/bglgwyng/zat/releases/download/v0.4.0/zat-aarch64-darwin.tar.gz"
-      sha256 "993971feba1babd75743c5fc0e4d843460515a502e6df932057086adc2119316"
+      sha256 "f218e01f9962a60b4b2c9a135d2408019e0acd1f478a028f47564ca2c64a4c82"
     end
     on_intel do
       url "https://github.com/bglgwyng/zat/releases/download/v0.4.0/zat-x86_64-darwin.tar.gz"
-      sha256 "122a612d424a9a533cf0471b56e06075dc2c0470e377ce12d38b61c83e83bcb3"
+      sha256 "9c2d9470e6deea8dc04ada8cf736a212871b4e0526c0cbd14354d6d1a0b92cf0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/bglgwyng/zat/releases/download/v0.4.0/zat-x86_64-linux.tar.gz"
-      sha256 "5d0663a69f4d2d06b62bb9b930fbd28bb937ef77158271b3ba22bdc31c170e5d"
+      sha256 "38e567c1b3923e9118462d9818db0b08a1ed3c89164212a236f65790ed2d0696"
     end
   end
 
   def install
-    bin.install "bin/zat"
+    bin.install "zat"
   end
 
   test do
