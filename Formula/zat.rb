@@ -1,24 +1,24 @@
 class Zat < Formula
   desc "Code outline viewer for LLMs"
   homepage "https://github.com/bglgwyng/zat"
-  version "0.4.5"
+  version "0.4.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bglgwyng/zat/releases/download/v0.4.5/zat-aarch64-darwin.tar.gz"
-      sha256 "43943f51b12a20f77e705481e5a7565099a62191d1d7e819b2758933ad72a8d0"
+      url "https://github.com/bglgwyng/zat/releases/download/v0.4.6/zat-aarch64-darwin.tar.gz"
+      sha256 "fa43553924dd011c925c221040384a7307a8757d161d0b34fa5f1d1f66866a0d"
     end
     on_intel do
-      url "https://github.com/bglgwyng/zat/releases/download/v0.4.5/zat-x86_64-darwin.tar.gz"
-      sha256 "d1b34348b816afa7895170ac9a65a70e7804da22a6f5e47e8e80bd9ccc7b6683"
+      url "https://github.com/bglgwyng/zat/releases/download/v0.4.6/zat-x86_64-darwin.tar.gz"
+      sha256 "391895ce464cc5acfedff914c5fa8872288901a272fa00cf97c4e280e8e956f8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/bglgwyng/zat/releases/download/v0.4.5/zat-x86_64-linux.tar.gz"
-      sha256 "7e3e548704b2516a327b751ff12697863eb65e2345bee445a414dce82d13bab0"
+      url "https://github.com/bglgwyng/zat/releases/download/v0.4.6/zat-x86_64-linux.tar.gz"
+      sha256 "920c2f3a4ccfda66ef446deea008a586cb5fbefacb5c63ac2382d91892a53fdd"
     end
   end
 
